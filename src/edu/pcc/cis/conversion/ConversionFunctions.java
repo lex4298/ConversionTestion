@@ -6,7 +6,7 @@ package edu.pcc.cis.conversion;
  * @author Cara Tang
  * @version 2018.04.14
  */
-public class unitTests {
+public class ConversionFunctions {
     private static final String[] MONTH_NAMES = { "", "January", "February", "March", "April",
             "May", "June", "July", "August", "September", "October", "November", "December" };
 
