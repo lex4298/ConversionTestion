@@ -71,13 +71,13 @@ public class ConversionFunctionsTest {
     // TODO: Run the test and see that it fails. Failing tests reveal bugs.
     // TODO: Fix the implementation of monthNumToMonthName so that this test passes
     @Test
-    public void invalidMonthReturnsEmptyString() {
+    public void invalidMonth19ReturnsEmptyString() {
         assertEquals("", ConversionFunctions.monthNumToMonthName(19).toLowerCase());
     }
-    public void invalidMonthReturnsEmptyString() {
+    public void invalidMonth20ReturnsEmptyString() {
         assertEquals("", ConversionFunctions.monthNumToMonthName(20).toLowerCase());
     }
-    public void invalidMonthReturnsEmptyString() {
+    public void invalidMonth21ReturnsEmptyString() {
         assertEquals("", ConversionFunctions.monthNumToMonthName(21).toLowerCase());
     }
 }
