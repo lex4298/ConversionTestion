@@ -74,4 +74,10 @@ public class ConversionFunctionsTest {
     public void invalidMonthReturnsEmptyString() {
         assertEquals("", ConversionFunctions.monthNumToMonthName(19).toLowerCase());
     }
+    public void invalidMonthReturnsEmptyString() {
+        assertEquals("", ConversionFunctions.monthNumToMonthName(20).toLowerCase());
+    }
+    public void invalidMonthReturnsEmptyString() {
+        assertEquals("", ConversionFunctions.monthNumToMonthName(21).toLowerCase());
+    }
 }
