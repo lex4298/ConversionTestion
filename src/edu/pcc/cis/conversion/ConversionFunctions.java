@@ -25,9 +25,7 @@ public class ConversionFunctions {
      * @return the number of tablespoons in the given number of cups
      */
     public static int cupsToTablespoons(int cups) {
-        // This method does not work correctly. You will fix it as you work through the tests.
-        // Remove these comments once it is implemented correctly.
-        return 0;
+        return (int)(cups/16);
     }
 
     /**
@@ -36,8 +34,9 @@ public class ConversionFunctions {
      * @return the name of the given month, or empty string if the month number is invalid
      */
     public static String monthNumToMonthName(int monthNum) {
-        // This method does not work correctly. You will fix it as you work through the tests.
-        // Remove these comments once it is implemented correctly.
-        return MONTH_NAMES[monthNum];
+        if(monthNum <= 12 && monthNum >= 1)
+            return MONTH_NAMES[monthNum];
+        else
+            return "";
     }
 }
